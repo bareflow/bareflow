@@ -4,7 +4,7 @@ ARG UID
 ARG GID
 ARG RUST_VERSION
 
-RUN apk add --update rustup build-base shadow \
+RUN apk add --update rustup build-base git shadow \
     && groupadd -g $GID vscode \
     && useradd vscode -u $UID -g $GID -m
 
