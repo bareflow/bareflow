@@ -6,5 +6,10 @@ authors = ["The bareflow developers"]
 license = "MIT"
 description = "A work in progress opinionated web framework"
 repository = "https://github.com/bareflow/bareflow"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+]
 
 [dependencies]
