@@ -12,3 +12,5 @@ services:
     init: true
     volumes:
       - .:/home/vscode/workspace
+    ports:
+      - 3000:3000
